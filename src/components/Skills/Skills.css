@@ -1,0 +1,17 @@
+#skills { 
+  clip-path: polygon(0 14%, 36% 0, 100% 15%, 100% 85%, 63% 100%, 0 86%);
+  background-color: rgb(222, 225, 230);
+  
+}
+
+.light-skills-and-contact-img {
+  background-image: url(../../images/Mystic.jpg) center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.dark-skills-and-contact-img{
+  background-image: url(../../images/dark-bg-img.jpg) center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}

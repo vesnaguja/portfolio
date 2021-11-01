@@ -1,0 +1,28 @@
+.project-card {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.project-img-wrapper {
+  height: 15vh;
+  overflow: hidden;
+}
+
+.project-img {
+  width: 100%;
+  transition: all 10s ease;
+}
+
+.project-card:hover .project-img {
+  transform: translateY(-100%);
+}
+
+.code-button:hover,
+.live-button:hover {
+  background-color: rgb(136, 136, 136) !important;  
+  color: white !important;
+}
+
+.code-button, .live-button {
+  border: solid 1px !important;
+}
+
