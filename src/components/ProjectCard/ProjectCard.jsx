@@ -13,7 +13,7 @@ export const ProjectCard = ({ project }) => {
     <Col sm={12} md={6} lg={4} xl={2} className="d-flex">
       <Card className="project-card flex-fill">
         <div className="project-img-wrapper">
-          <Card.Img variant="top" src={project.img} className="project-img" />
+          <Card.Img variant="top" src={project.img} className="project-img" alt="project image" />
         </div>
 
         <Card.Body className="d-flex flex-column justify-content-between">

@@ -1,7 +1,7 @@
 import { Container, Row } from "react-bootstrap";
-import "./Projects.css";
 import { projects } from "../../data/projectsData";
 import { ProjectCard } from "../ProjectCard/ProjectCard";
+import "./Projects.css";
 
 export const Projects = () => {
   return (
