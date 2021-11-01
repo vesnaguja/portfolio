@@ -1,7 +1,7 @@
 export const projects = [{
     id: 1,
     name: "Interview Reports",
-    img: "/images/candidates.png",
+    img: "/images/reports.png",
     code: "https://github.com/vesnaguja/interview-reports",
     text: "A SPA for tracking information about companies, candidates and job interviews."
   },
