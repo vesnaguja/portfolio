@@ -13,10 +13,20 @@ export const Contact = () => {
   const textColor = theme.themeStyle.textColor;
 
   return (
-    <Container fluid id="contact" className={`light-skills-and-contact-img ${contactImgClass} pt-5 mt-5`}>
+    <Container
+      fluid
+      id="contact"
+      className={`light-skills-and-contact-img ${contactImgClass} pt-5 mt-5`}
+    >
       <Container className="py-5 my-5 text-center">
-        <h2 className="fw-bold py-5">CONTACT</h2>
-        <a href="mailto:vesna.grujanic@gmail.com" className="text-decoration-none fs-4 contact-email" style={{ color: textColor }}>
+        <h2 className="fw-bold py-5" data-aos="fade-down">
+          CONTACT
+        </h2>
+        <a
+          href="mailto:vesna.grujanic@gmail.com"
+          className="text-decoration-none fs-4 contact-email"
+          style={{ color: textColor }}
+        >
           vesna.grujanic@gmail.com
         </a>
 

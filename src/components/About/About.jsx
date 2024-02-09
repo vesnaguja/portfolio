@@ -13,37 +13,64 @@ export const About = () => {
   return (
     <Container fluid id="about-me" className="py-5 my-5">
       <Container>
-        <h2 className="text-center fw-bold pt-5">ABOUT ME</h2>
+        <h2 className="text-center fw-bold pt-5" data-aos="fade-down">
+          ABOUT ME
+        </h2>
 
-        <Row className="py-5">
-          <Col sm={12}>
-            <p className="fs-4 fw-normal text-center">
-              Hello, I'm Vesna, JavaScript and React developer highly motivated to upgrade knowledge and to obtain a full-time job in IT
-              industry.
+        <Row className="py-5 mb-5">
+          <Col sm={12} data-aos="fade-up">
+            <p className="fs-4 fw-normal text-center m-auto col-md-8">
+              Hello, I'm Vesna, a frontend web developer highly motivated to
+              continuously enhance my skills and deliver functional, visually
+              appealing web applications.
             </p>
           </Col>
         </Row>
-        <Row className="">
-          <Col sm={12} md={6} lg={4} className="text-center">
-            <GoBook style={{ color: iconColor }} size="30px" />
-            <h4>EDUCATION</h4>
-            <p className="fw-bold">Master of Pharmacy</p>
-            <p>Faculty of Pharmacy, Univerity of Belgrade</p>
+        <Row className="g-4 md:g-0">
+          <Col
+            sm={12}
+            md={6}
+            lg={4}
+            className="text-center"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <MdOutlineWorkOutline style={{ color: iconColor }} size="30px" />
+            <h4>WORK</h4>
+            <p>Vast/Vroom - 6 months</p>
+            <p>Helbiz DOO, Serbia - 18 months</p>
           </Col>
 
-          <Col sm={12} md={6} lg={4} className="text-center">
+          <Col
+            sm={12}
+            md={6}
+            lg={4}
+            className="text-center"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
             <BiCertification style={{ color: iconColor }} size="30px" />
             <h4>CERTIFICATES</h4>
             <p className="fw-bold">Front End Bootcamp</p>
             <p>Belgrade Institute of Technology – BIT</p>
-            <p className="fw-bold pt-3"> Quality Assurance Manual Software Testing Course</p>
+            <p className="fw-bold pt-3">
+              Quality Assurance Manual Software Testing Course
+            </p>
             <p>TNation Academy, Belgrade</p>
           </Col>
 
-          <Col sm={12} md={6} lg={4} className="text-center">
-            <MdOutlineWorkOutline style={{ color: iconColor }} size="30px" />
-            <h4>WORK</h4>
-            <p>5 years in pharmacy</p>
+          <Col
+            sm={12}
+            md={6}
+            lg={4}
+            className="text-center"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <GoBook style={{ color: iconColor }} size="30px" />
+            <h4>EDUCATION</h4>
+            <p className="fw-bold">Master of Pharmacy</p>
+            <p>Faculty of Pharmacy, Univerity of Belgrade</p>
           </Col>
         </Row>
       </Container>
