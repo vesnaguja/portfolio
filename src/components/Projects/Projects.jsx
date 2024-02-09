@@ -6,13 +6,15 @@ import "./Projects.css";
 export const Projects = () => {
   return (
     <Container id="projects" className="py-5 my-5">
-      <h2 className="projects-title text-center py-5">PROJECTS</h2>
+      <h2 className="projects-title text-center py-5" data-aos="fade-down">
+        PROJECTS
+      </h2>
       <Container fluid>
-      <Row className="justify-content-center g-3">
-        {projects.map((project) => (
-          <ProjectCard key={project.id} project={project} />
-        ))}
-      </Row>
+        <Row className="justify-content-center g-3">
+          {projects.map((project) => (
+            <ProjectCard key={project.id} project={project} />
+          ))}
+        </Row>
       </Container>
     </Container>
   );
